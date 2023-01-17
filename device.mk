@@ -15,9 +15,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
-
-PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-service \
     bootctrl.avb
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
